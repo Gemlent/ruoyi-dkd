@@ -285,12 +285,13 @@ CREATE TABLE `tb_task` (
 
 ## 5. 系统部署
 
-### 5.1 服务器要求
+### 5.1 部署环境
 
-- JDK 1.8+
-- MySQL 5.7+
-- Redis 5.0+
-- Node.js 14+
+- **JDK 17**
+- **Node.js 16.x**
+- **MySQL 8.0**
+- **Redis 6.x**
+- **IDEA/VSCode** 
 
 ### 5.2 部署步骤
 
@@ -305,3 +306,44 @@ CREATE TABLE `tb_task` (
    # 将dist目录部署到Nginx
    ```
 
+
+##6.技术框架
+
+### 一、核心框架
+
+- **Spring Boot 2.x** - 基础开发框架
+- **Spring Security** - 安全认证和权限控制
+- **MyBatis** - ORM框架
+- **MyBatis-Plus** - MyBatis增强工具
+
+### 二、前端技术
+
+- **Vue 3** - 前端框架
+- **Element Plus** - UI组件库
+- **Vue Router** - 路由管理
+- **Vuex/Pinia** - 状态管理
+- **Axios** - HTTP请求库
+
+### 三、数据库
+
+- **MySQL 5.7+** - 主数据库
+- **Redis 5.0+** - 缓存和会话管理
+
+### 四、中间件与云服务
+
+- **EMQX MQTT** - 物联网消息中间件（设备通信）
+
+### 五、开发工具与技术
+
+- **Maven** - 项目构建和依赖管理
+- **Lombok** - 简化Java代码开发
+- **EasyExcel** - Excel导入导出处理
+- **x-file-storage** - 多平台文件存储抽象层
+- **Druid** - 数据库连接池
+- **Swagger** - API文档生成
+
+### 六、部署与运维
+
+- **Nginx** - Web服务器和反向代理
+- **Docker** - 容器化部署（可选）
+- **Jenkins** - 持续集成（可选）
