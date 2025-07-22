@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# ruoyi-dkd
-结合ruoyi的售货机系统
-=======
 # 帝可得后台管理系统技术文档
 
 ## 1. 项目概述
@@ -309,4 +305,3 @@ CREATE TABLE `tb_task` (
    # 将dist目录部署到Nginx
    ```
 
->>>>>>> master
